@@ -1,0 +1,17 @@
+.container{
+    max-width: 1140px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.gameboard{
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    grid-gap: 20px;
+    justify-content: center;
+}
